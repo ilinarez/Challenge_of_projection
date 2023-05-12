@@ -1,9 +1,7 @@
-import time
 import pytest
 
 from projection.helpers import helpers
 from projection.commands.commands import command
-from projection.actions.Common_Methods import CommonMethods
 from projection.actions.Edit_Profile_Page import EditProfilePage
 Test_name = "test_upload_record_from_profile"
 
@@ -13,7 +11,6 @@ def test_upload_record_from_profile(web_driver,test_screenshots_folder_path, con
     client = config_users['User_feed']
 
     commands = command(web_driver,test_screenshots_folder_path)
-    commonmethods = CommonMethods(web_driver,test_screenshots_folder_path)
     editprofilepage = EditProfilePage(web_driver,test_screenshots_folder_path)
 
     # Logs in
