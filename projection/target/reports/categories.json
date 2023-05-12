@@ -1,0 +1,36 @@
+[
+    {
+      "name": "Ignored tests",
+      "matchedStatuses": ["skipped"]
+    },
+    {
+      "name": "KeyErrors problems",
+      "matchedStatuses": ["broken", "failed"],
+      "messageRegex": ".*KeyError.*"
+    },
+    {
+      "name": "NameError problems",
+      "matchedStatuses": ["broken"],
+      "messageRegex": ".*NameError.*"
+    },
+    {
+      "name": "Not Found Element in test",
+      "matchedStatuses": ["broken"],
+      "messageRegex": ".*selenium.common.exceptions.NoSuchElementException.*"
+    },
+    {
+      "name": "Test defects for timeout.",
+      "matchedStatuses": ["broken"],
+      "messageRegex": ".*selenium.common.exceptions.TimeoutException.*"
+    },
+    {
+        "name": "The element was input not select.",
+        "matchedStatuses": ["broken"],
+        "messageRegex": ".*selenium.common.exceptions.UnexpectedTagNameException.*"
+    },
+    {
+        "name": "UnboundLocalError in variables",
+        "matchedStatuses": ["broken"],
+        "messageRegex": ".*UnboundLocalError.*"
+    }
+  ]

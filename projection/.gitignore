@@ -1,0 +1,19 @@
+# VS code
+.vscode/*
+debug.log
+
+# Pytest
+.pytest_cache
+__pycache__
+
+# node
+node_modules
+
+# Screenshots of the test cases
+*.png
+
+#Allure report
+projection/target/reports/*
+
+#.DS_Store
+.DS_Store

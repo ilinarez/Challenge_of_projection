@@ -1,0 +1,11 @@
+{
+    "User_feed": {
+        "email": "i.linarez@gbh.com.do",
+        "password": "12345",
+        "name": "Ian",
+        "role": "Being the test user of the automation",
+        "bio": "He born when the automation said it",
+        "name_public_collection":"test automation 1 public for challenge",  
+        "name_private_collection":"test automation 1 private for challenge"  
+    }
+}
